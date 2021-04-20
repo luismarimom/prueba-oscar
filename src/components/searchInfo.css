@@ -1,0 +1,101 @@
+h2 {
+    text-align: left;
+    -ms-word-break: break-all;
+    word-break: break-all;
+}
+
+label{
+    margin-right: 1em;
+    color: white;
+    font-size: 1.5em;
+}
+
+form{
+    background-color: darkgray;
+    padding: 10px 5px;
+}
+
+table{
+    width: 100%;
+}
+
+button{
+    background-color: crimson;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 6px;
+    margin-right: 10px;
+}
+
+button:hover{
+    background-color: rgb(206, 88, 111);  
+}
+
+div#content-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input#busqueda{
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 3px;
+    font: 1em sans-serif;
+}
+
+input#busqueda::placeholder{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.container-search{
+    margin-top: 15px;
+}
+
+.info-centro{
+    display: block;
+    text-align: left;
+}
+
+.icon-search:before {
+    content: "\e986";
+}
+.descripcion{
+    color:darkgrey;
+}
+.content-data{
+    display: flex;
+    justify-content: left;
+    margin: 1em;
+    border-bottom: solid 1px grey;
+}
+
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(127, 161, 255);
+    color: aliceblue;
+}
+
+.header-info h2{
+    margin-left: 10px;
+}
+
+.content-info{
+    width: 60%;
+}
+
+.content-img{
+    margin-right: 1em;
+    background-color: rgb(35, 14, 223);
+    width: 40%;
+}
+
+ 
